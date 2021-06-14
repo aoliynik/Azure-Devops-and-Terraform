@@ -26,5 +26,5 @@ stages:
         repository: 'aoliynyk/weatherapi'
         command: 'buildAndPush'
         Dockerfile: '**/Dockerfile'
-        tags: -|
+        tags: |
            $(tag)
